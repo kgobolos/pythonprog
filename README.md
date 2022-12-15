@@ -1,2 +1,2 @@
-# pythonprog
+# Python programozás
 Python programok
