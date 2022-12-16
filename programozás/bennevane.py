@@ -21,11 +21,13 @@ hetnapjai = ["Hétfő","Kedd","Szerda","Csütörtök","Péntek","Szombat","Vasá
 hetnapjai_kisbetu = [item.lower() for item in hetnapjai]
 hetnapjai_nagybetu = [item.upper() for item in hetnapjai]
 
-beker = input("Kérem a napot! ").upper()
+# beker = input("Kérem a napot! ").upper()
 
-if beker in hetnapjai_nagybetu:
-    print(f"{beker} nap benne van a listában")
-else:
-    print(f"{beker} nap nincs a listában")
+# if beker in hetnapjai_nagybetu:
+#     print(f"{beker} nap benne van a listában")
+# else:
+#     print(f"{beker} nap nincs a listában")
 
-
+for i in range(len(hetnapjai)):
+    if "o" in hetnapjai[i]:
+        print(hetnapjai[i])
